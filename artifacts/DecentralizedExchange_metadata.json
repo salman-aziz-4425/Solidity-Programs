@@ -1,0 +1,93 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment/Task9.sol": "DecentralizedExchange"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"@openzeppelin/contracts/token/ERC20/ERC20.sol": {
+			"keccak256": "0x4ffc0547c02ad22925310c585c0f166f8759e2648a09e9b489100c42f15dd98d",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://15f52f51413a9de1ff191e2f6367c62178e1df7806d7880fe857a98b0b66253d",
+				"dweb:/ipfs/QmaQG1fwfgUt5E9nu2cccFiV47B2V78MM1tCy1qB7n4MsH"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/IERC20.sol": {
+			"keccak256": "0x9750c6b834f7b43000631af5cc30001c5f547b3ceb3635488f140f60e897ea6b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a7d5b1ef5d8d5889ad2ed89d8619c09383b80b72ab226e0fe7bde1636481e34",
+				"dweb:/ipfs/QmebXWgtEfumQGBdVeM6c71McLixYXQP5Bk6kKXuoY4Bmr"
+			]
+		},
+		"@openzeppelin/contracts/token/ERC20/extensions/IERC20Metadata.sol": {
+			"keccak256": "0x8de418a5503946cabe331f35fe242d3201a73f67f77aaeb7110acb1f30423aca",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5a376d3dda2cb70536c0a45c208b29b34ac560c4cb4f513a42079f96ba47d2dd",
+				"dweb:/ipfs/QmZQg6gn1sUpM8wHzwNvSnihumUCAhxD119MpXeKp8B9s8"
+			]
+		},
+		"@openzeppelin/contracts/utils/Context.sol": {
+			"keccak256": "0xe2e337e6dde9ef6b680e07338c493ebea1b5fd09b43424112868e9cc1706bca7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://6df0ddf21ce9f58271bdfaa85cde98b200ef242a05a3f85c2bc10a8294800a92",
+				"dweb:/ipfs/QmRK2Y5Yc6BK7tGKkgsgn3aJEQGi5aakeSPZvS65PV8Xp3"
+			]
+		},
+		"assignment/Task9.sol": {
+			"keccak256": "0xf8b1b794b668f861031cf63a2ea155ad7c3d43f9e898ab5e7cf52ea5b11be357",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://4a55796614462d1ac4d2681de0f671e7f11d1c5007a9754336e7363968265c4c",
+				"dweb:/ipfs/QmSQBHzeko2VLoUhL3Cp5o8gVd4FxjihFHvdoWSTGvLRxp"
+			]
+		},
+		"assignment/TokenA.sol": {
+			"keccak256": "0xd6b19712b795bd915ebd9f935c76e506a217384550233889fe8a96a58eec4b62",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://3f0dce7801fa4393505a19eb685c5e30389e35614ca8cc9c2c738bdd9c0c53bf",
+				"dweb:/ipfs/QmZiSV2Sy2maJf6rpvVqcGY826vtkXbwsfymRxZGeHGExL"
+			]
+		},
+		"assignment/TokenB.sol": {
+			"keccak256": "0x24b253bf190df101164c86c9b67303da490f0f0b2a165a2e3897c0bd09d8a28d",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://9c42412956537935f7e1b3b2b2fa3df88d10cdd60f914a6f423d7c230d83bad8",
+				"dweb:/ipfs/QmPfbsYpF3ShWTdZXFFnxRrwWjuoy6CbfHU6AGY1qeAsgQ"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,146 @@
+{
+	"compiler": {
+		"version": "0.8.18+commit.87f61d96"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "initialSupply",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "TokenPrice",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "value",
+						"type": "uint256"
+					}
+				],
+				"name": "addToken",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "tokenAddress",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "numTokens",
+						"type": "uint256"
+					}
+				],
+				"name": "buyToken",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "checkBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "tokenA",
+				"outputs": [
+					{
+						"internalType": "contract ERCTokens",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"assignment/Task8.sol": "crowdSale"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"assignment/Task7.sol": {
+			"keccak256": "0xe0b964da69b2d131234ea9fea3c5a1ebfc02fa7379e9afda613bded94ba3aad0",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://f4a88e624870c4840323fc53cd48a8b16b40c4c5028201074e8005b466dd7d10",
+				"dweb:/ipfs/Qmet69TDDM3qqH7932m2RGxZhNXxdkpK6kQAvZiHVfUQaK"
+			]
+		},
+		"assignment/Task8.sol": {
+			"keccak256": "0x6696c3918e5e35d45c39f3451809b4c5191edcbe8f5e20101d4c68540c1fdd06",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://7359b55fe3d8c1385830f223c28df7b954bb42ca853c0dfcd8272744bd731407",
+				"dweb:/ipfs/QmXsNVm7xzxd6jy9zxS6qKPgpiX6EeaPGuhZLAGVNzpNaS"
+			]
+		}
+	},
+	"version": 1
+}
